@@ -30,7 +30,7 @@ export default function App() {
           return (
             <View key={post.id}>
               <Text style={styles.title} >{post.id == 1 ? "Hr Meheraj" : post.title}</Text>
-              <Text style={styles.text}>{post.id == 1 ? "Afridi Ahad bin Taseer is my bondhu" : post.body}</Text>
+              <Text style={styles.text}>{post.body}</Text>
             </View>
           )
         })
